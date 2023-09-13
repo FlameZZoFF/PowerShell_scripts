@@ -25,7 +25,7 @@ foreach($item in $TLS){
   }
 }
 
-#Вводим ниже свои настройки конфигурации
+#Enter your configuration below
 
 New-Item -Path . -Name "cert_for_current_user.ovpn" -ItemType "file" -Value "client                             
 proto tcp-client              
